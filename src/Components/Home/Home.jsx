@@ -41,8 +41,15 @@ export const Home = () => {
             show in books Card.
         */}
 
-        {books.map((e)=>{
-          return <BookCard/>
+        {books.map((e) => {
+          return (
+            <BookCard
+              id={e.id}
+              imageUrl={e.imageUrl}
+              title={e.title}
+              price={e.price}
+            />
+          );
         })}
       </Main>
     </div>
