@@ -1,14 +1,11 @@
-
-import './App.css'
+import { AllRoutes } from "./Routes/Routes";
 
 function App() {
- 
-
   return (
     <div className="App">
-     <h1>getting ready for c3</h1>
+      <AllRoutes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,148 @@
+{
+    "books":[
+        {
+            "title":"Bookh1",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book Authorh1",
+            "price": 1234,
+            "section": "history",
+            "isbnNumber": 1234567
+         },
+         {
+            "title":"Bookh2",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book Authorh2",
+            "price": 12345,
+            "section": "history",
+            "isbnNumber": 12345678
+         },
+         {
+            "title":"Bookh3",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book Authorh3",
+            "price": 123456,
+            "section": "history",
+            "isbnNumber": 123456789
+         },
+         {
+            "title":"BookMT1",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorMT1",
+            "price": 1234,
+            "section": "Mythology",
+            "isbnNumber": 1234567
+         },
+         {
+            "title":"BookMT2",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorMT2",
+            "price": 12345,
+            "section": "Mythology",
+            "isbnNumber": 12345678
+         },
+         {
+            "title":"BookMT3",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorMT3",
+            "price": 123456,
+            "section": "Mythology",
+            "isbnNumber": 123456789
+         },
+         {
+            "title":"BookMY1",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorMY1",
+            "price": 1234,
+            "section": "Mystery",
+            "isbnNumber": 1234567
+         },
+         {
+            "title":"BookMY2",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorMY2",
+            "price": 12345,
+            "section": "Mystery",
+            "isbnNumber": 12345678
+         },
+         {
+            "title":"BookMY3",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorMY3",
+            "price": 123456,
+            "section": "Mystery",
+            "isbnNumber": 123456789
+         },
+         {
+            "title":"BookT1",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorT1",
+            "price": 1234,
+            "section": "Technology",
+            "isbnNumber": 1234567
+         },
+         {
+            "title":"BookT2",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorT2",
+            "price": 12345,
+            "section": "Technology",
+            "isbnNumber": 12345678
+         },
+         {
+            "title":"BookT3",
+            "imageUrl":"image Url",
+            "description":"Book desc",
+            "reviews":[
+                "review1","review1"
+            ],
+            "author":"Book AuthorT3",
+            "price": 123456,
+            "section": "Technology",
+            "isbnNumber": 123456789
+         }
+    ]
+}
