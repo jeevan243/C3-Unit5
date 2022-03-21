@@ -13,28 +13,37 @@ export const SortAndFilterButtons = ({ handleSort }) => {
 
   const getData = () => {
     axios.get("http://localhost:8080/books").then((res) => {
-      setgetBooks(...books, res.data);
+      setgetBooks(res.data);
     });
   };
+  // console.log(books);
 
   const sortByTitleAsc = () => {
     books.sort((a, b) => {
       return a.title - b.title;
     });
-    console.log(books);
-    setgetBooks([...books]);
+    setgetBooks(books);
   };
 
   const sortByTitleDesc = () => {
     books.sort((b, a) => {
       return b.title - a.title;
     });
-    console.log(books);
-    setgetBooks([...books]);
+    setgetBooks(books);
   };
 
-  const sortByPriceAsc = () => {};
-  const sortByPriceDesc = () => {};
+  const sortByPriceAsc = () => {
+    books.sort((a, b) => {
+      return a.price - b.price;
+    });
+    setgetBooks(books);
+  };
+  const sortByPriceDesc = () => {
+    books.sort((a, b) => {
+      return b.price - a.price;
+    });
+    setgetBooks(books);
+  };
   return (
     <div className="sortButtons">
       {/*
