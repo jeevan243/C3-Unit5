@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 export const Home = () => {
-  const [books, getBooks] = useState([]);
+  const [books, setgetBooks] = useState([]);
   // get all books when user lands on the page
   // populate them as mentioned below
 
@@ -16,7 +16,7 @@ export const Home = () => {
 
   const getData = () => {
     axios.get("http://localhost:8080/books").then((res) => {
-      getBooks(...books, res.data);
+      setgetBooks(...books, res.data);
     });
   };
 

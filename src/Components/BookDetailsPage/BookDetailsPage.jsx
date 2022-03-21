@@ -22,7 +22,7 @@ export const BookDetailsPage = () => {
     });
   };
 
-  console.log(book);
+  // console.log(book);
 
   let review = book.reviews;
   console.log(review);
