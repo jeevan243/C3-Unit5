@@ -16,7 +16,7 @@ export const Section = () => {
       setSection(books);
       console.log(books);
     });
-  }, [section1]);
+  }, []);
   // you will receive section name from URL here.
   // Get books for only this section and show
   //   Everything else is same as Home page
